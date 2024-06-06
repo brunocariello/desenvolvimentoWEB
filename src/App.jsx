@@ -1,13 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-import { ListaInterna } from "./pages/ListaInterna";
-import { Relogio } from "./pages/Relogio";
-import { Form } from "./pages/FormularioComponente/Form";
-import { ListaBusca } from "./pages/ListaBusca";
-import { Desafio } from "./pages/Desafio";
+import { ListaInterna } from "../src/Pages/ListaInterna/ListaInterna";
+import { Relogio } from "../src/Pages/Relogio/Relogio";
+import { Form } from "../src/Pages/FormularioComponentes/Form";
+import { ListaBusca } from "../src/Pages/ListaBusca/ListaBusca";
+import { Desafio } from "../src/Pages/Desafio/Desafio";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +19,7 @@ function App() {
         renderizado em tela.{" "}
       </h3>
       <br />
-      <listainterna></listainterna>
+      <ListaInterna></ListaInterna>
       <br />
       <br />
       <br />

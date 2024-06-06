@@ -1,5 +1,5 @@
 import { React } from "react";
-import "./styles/Botao.css";
+import "./Botao.css";
 export function Botao({ texto, tipo }) {
   return (
     <>

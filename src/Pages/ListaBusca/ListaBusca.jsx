@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Input } from "./Components/Input/Input";
+import { Input } from "./Input";
 
 export function ListaBusca() {
   const marca = [

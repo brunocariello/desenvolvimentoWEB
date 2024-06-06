@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Input } from "./Componentes/Input/Input";
-import { Botao } from "./Components/Botao/Botao";
+import { Input } from "../FormularioComponentes/Componentes/Insput/Input";
+import { Botao } from "../FormularioComponentes/Componentes/Botao/Botao";
 export function Form() {
   const [inputValue, setInputValue] = useState("");
 
